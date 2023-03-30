@@ -1,0 +1,103 @@
+body {
+    background-image: url('./background_image.webp');
+    margin: 0;
+    height: 130vh;
+    /* font-family: 'Satisfy', cursive; */
+    /* font-family: 'Josefin Slab', serif; */
+
+}
+
+header {
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logobox {
+    display: inline-block;
+    width: 150px;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbox {
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.navbox>a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navbox>a:hover {
+    color: salmon;
+}
+
+#homie {
+    color: salmon;
+}
+
+.heading {
+    color: salmon;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    width: 500px;
+    top: 60px;
+    left: 70px;
+}
+
+.heading+h3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: relative;
+    width: 500px;
+    left: 70px;
+}
+
+.heading+h3+p {
+    color: rgba(255, 255, 255, 0.82);
+    font-family: 'Satisfy', cursive;
+    position: relative;
+    top: 20px;
+    width: 400px;
+    left: 80px;
+}
+
+.btn {
+    width: 120px;
+    padding: 15px;
+    border: 2px solid salmon;
+    background-color: salmon;
+    color: rgb(46, 45, 45);
+    font-weight: 600;
+    font-family: 'Roboto';
+    position: relative;
+    top: 20px;
+    left: 80px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+footer {
+    color: white;
+    font-family: 'Roboto';
+    position: fixed;
+    bottom: 0;
+
+}
